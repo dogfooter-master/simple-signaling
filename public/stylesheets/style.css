@@ -1,0 +1,34 @@
+body {
+  font: Roboto;
+  background-color: #f7f6e7;
+  margin-top: 15px;
+}
+.page {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  height: 450px;
+}
+
+#yours {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#theirs {
+  width: 800px;
+  height: 450px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+video {
+  background: black;
+  border: 1px solid gray;
+}

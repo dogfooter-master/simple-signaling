@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Dermaster Prototype</title>
+
+  <link rel="stylesheet" href="stylesheets/style.css" />
+
+</head>
+
+<body>
+  <div id="login-page" class="page">
+    <h2>Login As For Dermaster Prototype</h2>
+    <input type="text" value="admin" id="username" />
+    <button id="login" >Login</button>
+  </div>
+  <div id="call-page" class="page">
+    <video id="yours" autoplay playsinline></video>
+    <video id="theirs" autoplay playsinline></video>
+    <input type="text" id="their-username" />
+    <button id="call">Call</button>
+    <button id="hang-up">Hang Up</button>
+    <br/>
+    <label for="video-source">Camera: </label>
+    <select id="video-source"></select>
+    <br/>
+    <label for="audio-source">Audio : </label>
+    <select id="audio-source"></select>
+  </div>
+
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="javascripts/main.js"></script>
+
+</body>
+
+</html>
